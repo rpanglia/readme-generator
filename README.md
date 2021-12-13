@@ -9,8 +9,8 @@ The Professional README Generator provides developers with the ability to dynami
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contribution](#contributer)
-- [Tests](#tests)
+- [Contribution](#contribution)
+- [Tests](#test)
 - [Questions](#questions)
 
 ## User Story
