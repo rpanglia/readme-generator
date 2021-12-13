@@ -86,13 +86,14 @@ async function init () {
     console.log('To begin generating your professional README file, please answer the following questions.');
 
     try {
+        
         const userData = await promptUser();
         console.log(userData);
 
         const makeMarkdown = generateMarkdown(userData);
 
-        await writeToFile("README.md", makeMarkdown)
-        console.log('Congratulations! You have generated a professional README.md file for your project!')
+        await writeToFile("README.md", makeMarkdown);
+        console.log('Congratulations! You have generated a professional README.md file for your project!');
         
     }
     catch(err) {

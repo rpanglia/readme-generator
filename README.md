@@ -1,36 +1,33 @@
-# Cool Stuff
+# Everest
 
   ## Decription
-  Cool things for a cool project
+  An application where hikers can search for trails and crazy hikes!
 
-  ![The Unlicense](https://img.shields.io/badge/license-The%20Unlicense-blue.svg)
+  ![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)
 
   ## Table of Contents
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Contibution](#contribution)
-  *[License][License](#license)(#license)
-  *[Tests](#test)
-  *[Questions](#questions)
+  [Installation](#installation)
+  [Usage](#usage)
+  [Contibution](#contribution)
+  [License](#license)
+  [Tests](#test)
+  [Questions](#questions)
 
   ## Installation
-  n/a
+  TBD
 
   ## Usage
-  to provide the world with cool knowledge
+  hikers to find hikes
 
   ## Contribution
-  me
+  Not available
 
-  ## License
-  The Unlicense
-  ## This product is licensed under the The Unlicense.
+  ## This product is licensed under the Apache License 2.0.
 
   ## Tests
-  n/a
+  None
 
   ## Questions
-  For any questions, you can reach me at:
-  Email: dasdasd
-  GitHub: https://github.com/sdsa
-  ask me anything cool
+  Reeeach out!
+  Email: hiking@someemail.com
+  GitHub: https://github.com/hiker-for-lyfe
