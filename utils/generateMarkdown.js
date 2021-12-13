@@ -65,7 +65,7 @@ function generateMarkdown(data) {
   For any questions, you can reach me at:
   Email: ${data.email}
   GitHub: https://github.com/${data.userName}
-  ${data.questions}
+  ${data.submitQuestions}
 `;
 }
 

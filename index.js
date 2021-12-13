@@ -41,6 +41,7 @@ const questions = [
             'Boost Software License 1.0', 
             'The Unlicense'
         ],
+        default: 'Not Licensed'
     },
     {
         type: 'input',
@@ -65,26 +66,29 @@ const questions = [
     {
         type: 'input',
         message: 'Provide instructions on how a user may be able to connect with you should they have any questions.',
-        name: 'questions'
+        name: 'submitQuestions'
     }
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-const promptUser = () => {
-    // return inquirer.prompt(questions);
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.log(err): null);
 }
-
+const promptUser = () => {
+    return inquirer.prompt(questions);
+}
+ const
 // TODO: Create a function to initialize app
 function init() {
-    // inquirer
-    //     .prompt(
-    //         questions
-    //     )
-    //     .then((answers) => {
-    //         writeToFile('README.md', answers);
-    //     });
+    inquirer
+        .prompt(questions)
+        .then((data) => {
+            writeToFile('README.md', data);
+        });
 };
+// required util ---where does it go???
+
 
 // Function call to initialize app
 init();
