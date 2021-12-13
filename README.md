@@ -1,7 +1,7 @@
-# Professional README Generator
+# The Professional README Generator
 
 ## Description
-The Professional README Generator provides developers with the ability to dynamically create a README markdown file with a user's input in the command-line. This application uses the NPM Inquirere Package. 
+The Professional README Generator provides developers with the ability to dynamically create a README markdown file straight from the command-line. This application utilizes the NPM Inquirer Package. 
 
 ## Table of Contents 
 - [User Story](#user-story)
