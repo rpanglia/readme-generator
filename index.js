@@ -71,23 +71,53 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>
-    err ? console.log(err): null);
-}
+// function writeToFile(fileName, data) {
+//     fs.writeFile(fileName, data, (err) =>
+//     err ? console.log(err): null);
+// }
 const promptUser = () => {
     return inquirer.prompt(questions);
 }
- const
+
+const writeToFile = util.promisify(fs.writeFile);
+
+async function init () {
+    console.log('To begin generating your professional README file, please answer the following questions.');
+
+    try {
+        const userData = await promptUser();
+        console.log(userData);
+
+        const markdown = generateMarkdown(userData);
+
+        await writeToFile("README.md", markdown)
+        console.log('Congratulations! You have generated a new README.md file!')
+        
+    }
+    catch(err) {
+        console.log(err);
+    }
+}
+
+// async function init() {
+//     try {
+//         const data = await promptUser()
+
+//         let markdown = generateMarkdown(data)
+//         await writeFileAsyn
+//     }
+// }
+
+
 // TODO: Create a function to initialize app
-function init() {
-    inquirer
-        .prompt(questions)
-        .then((data) => {
-            writeToFile('README.md', data);
-        });
-};
-// required util ---where does it go???
+// function init() {
+//     inquirer
+//         .prompt(questions)
+//         .then((data) => {
+//             writeToFile('README.md', data);
+//         });
+// };
+// required util ---where does it go???util.promisify() . It converts a callback-based function to a Promise-based one.
 
 
 // Function call to initialize app
