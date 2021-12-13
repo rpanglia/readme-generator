@@ -45,7 +45,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Contributions',
+        message: 'Contributions: Are there any additional contributors? Or specific information related to contributing to this project that you would like to include? Please provide the appropriate information.',
         name: 'contribution'
     },
     {
@@ -70,6 +70,7 @@ const questions = [
     }
 ];
 
+
 // Prompt question list that will be used to gather user data and later generate README
 const promptUser = () => {
     return inquirer.prompt(questions);
@@ -88,10 +89,10 @@ async function init () {
         const userData = await promptUser();
         console.log(userData);
 
-        const markdown = generateMarkdown(userData);
+        const makeMarkdown = generateMarkdown(userData);
 
-        await writeToFile("README.md", markdown)
-        console.log('Congratulations! You have generated a new README.md file for your project!')
+        await writeToFile("README.md", makeMarkdown)
+        console.log('Congratulations! You have generated a professional README.md file for your project!')
         
     }
     catch(err) {

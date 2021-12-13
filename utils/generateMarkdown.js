@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license) {
     return `![${license}](https://img.shields.io/badge/license-${encodeURIComponent(license)}-blue.svg)`;
   } else {
-    return `Not Licensed`;
+    return ``;
   };
 };
 
