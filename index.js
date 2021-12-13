@@ -65,7 +65,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Provide instructions on how a user may be able to connect with you should they have any questions.',
+        message: 'Provide instructions on how a user may connect with you, should they have any questions. Your email address and link to your GitHub page will automatically be included in this section.',
         name: 'submitQuestions'
     }
 ];
