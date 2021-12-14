@@ -3,14 +3,14 @@
 ## Description
 The Professional README Generator provides developers with the ability to dynamically create a README markdown file straight from the command-line. This application runs in node.js and utilizes the NPM Inquirer Package.
 
-Future Developement: add license badge links
+Future Developement: add license badge links.
 
 ## Table of Contents 
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
-- [Tests](#tests)
-- [Walk Through Vide](#walk-through-video)
+- [Test](#test)
+- [Walkthrough Video](#walkthrough-video)
 - [Screenshots](#screenshots)
 - [Questions](#questions)
 - [License](#license)
