@@ -1,9 +1,9 @@
-# dsa
+# Professional README generator
 
   ## Decription
-  asds
+  generates very professional readme files
 
-  ![Mozilla Public License 2.0](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-blue.svg)
+  ![MIT License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
   ## Table of Contents
   - [Installation](#installation)
@@ -14,20 +14,20 @@
   [License](#license)
 
   ## Installation
-  sda
+  see readme in github
 
   ## Usage
-  ds
+  dynamically create new readme.md files
 
   ## Contribution
-  asd
+  N/a
 
   ## Tests
-  sdasd
+  open terminal, run node index.js
 
   ## Questions
-  asd
-  Email: s
-  GitHub: https://github.com/asda
+  feel free to connect!
+  Email: email
+  GitHub: https://github.com/username
 
-  ## This product is licensed under the: Mozilla Public License 2.0.
+  ## This product is licensed under the: MIT License.

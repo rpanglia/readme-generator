@@ -51,7 +51,7 @@ You will be prompted to answer a series of questions that will take your inputs 
 
 
 ## Walkthrough Video
-
+https://watch.screencastify.com/v/7iOqBVYtkCgO2t57LhuJ
 
 ## Screenshots
 ![READMEquestions](/assets/images/screenshot1.jpg)
