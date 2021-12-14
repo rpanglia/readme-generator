@@ -92,8 +92,8 @@ async function init () {
 
         const makeMarkdown = generateMarkdown(userData);
 
-        await writeToFile("README.md", makeMarkdown);
-        console.log('Congratulations! You have generated a professional README.md file for your project!');
+        await writeToFile('./Your-README/README.md', makeMarkdown);
+        console.log('Congratulations! You have successfully generated a professional README.md file for your project!');
         
     }
     catch(err) {
